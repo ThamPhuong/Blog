@@ -16,9 +16,17 @@ img {
  .navbar-expand-lg .navbar-nav .nav-link {
      padding-right: 4rem;
 }
- #outstanding {
+ #outstanding, #posts{
+   margin:7% auto 0;
+   padding:5%;
+ }
+/* #posts{
+  margin-top: 10%;
+  padding: 3% 5%;
+
+} */
+ #blogger {
    margin:8% auto;
-   padding: 3% 5%;
  }
 .container-fluid {
   padding: 2% 10%;
@@ -40,6 +48,9 @@ img {
    font-size: 1.2rem;
    font-family: "Montserrat-Light";
  }
+ .post {
+   padding-bottom: 10px;
+ }
 #footer{
   background-color: #000;
   color: #fff;
@@ -56,4 +67,7 @@ img {
 }
 .social-icon:hover{
   color: #8f8f8f;
+}
+textarea {
+  border-radius: 5px;
 }
